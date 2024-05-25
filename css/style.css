@@ -1,0 +1,60 @@
+.form {
+    background-color: dimgray;
+    width: 480px;
+    /* внутренний отступ */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    /*убрать маркеры*/
+    list-style: none;
+}
+
+input:checked+span {
+
+    color: aliceblue;
+}
+
+[type="submit"] {
+
+    background-color: orange;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: red
+}
+
+.btn {
+    transition: background-color 0.4s;
+}
+
+.btn:active {
+    box-shadow: 3px 3px 1px 1px rgb(133, 0, 0);
+}
+
+.comment {
+    font-size: 0px;
+}
+
+.btn:active+.comment {
+    font-size: 16px;
+}
+
+.a:link {
+    color: blue;
+}
+
+.a:visited {
+    color: rgb(255, 0, 0);
+}
+
+
+input:focus {
+
+    background-color: darkviolet;
+}
